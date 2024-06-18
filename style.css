@@ -100,3 +100,48 @@ ul li span{
 ul li span:hover{
     background-color:  rgb(210, 214, 233);
 }
+@media (max-width:1023px){
+
+    .container{
+        width: 100%;
+        border-radius: 0;
+        padding: 5px;
+        min-height: 340vh;
+    }
+    .todo-app{
+        min-height: 60vh;
+    }
+}
+@media (max-width:641px){
+    
+    body{
+        font-size: 12px;
+    }
+    button{
+        border: none;
+        outline: none;
+        padding: 16px 10px;
+        border-radius: 40px;
+        background: rgb(144, 160, 230); 
+        transition: 2s ease;
+        font-weight: 450;
+        font-size: 16px;
+        cursor: pointer;
+        color:  rgba(9,9,121,1);
+    }
+    ul li{
+        margin: 20px;
+    }
+    .todo-app{
+        width: 100%;
+        max-width: 540px;
+        background-color: #fff;
+        margin: 10px auto 20px;
+        padding: 40px 15px 35px;
+        border-radius: 20px;
+        
+    }
+    body{
+        min-height: 740px;
+    }
+}
